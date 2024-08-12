@@ -13,9 +13,9 @@
       font-family: Arial, sans-serif;
       background-color: bisque;
       height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+
+      margin-inline: auto;
+      margin-block: auto;
     }
     .container {
       display: flex;
@@ -33,6 +33,24 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .other-tags {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: solid 1px black;
+    }
+    th,
+    td {
+      border: solid 1px black;
+      padding: 10px;
     }
   </style>
   <body>
@@ -65,6 +83,43 @@
           <li>This is a list item</li>
           <li>This is a list item</li>
         </ul>
+      </div>
+    </div>
+    <div class="other-tags">
+      <div>
+        <h1>address tag</h1>
+        <address>
+          A <code>address</code> Defines contact information for the
+          author/owner of a document
+        </address>
+      </div>
+      <div>
+        <h1>Aside tag</h1>
+        <aside>
+          a <code>aside</code> Defines content aside from the page content
+        </aside>
+      </div>
+      <div>
+        <h1>Strong tag</h1>
+        <strong>
+          a <code>strong</code> tag is used to define important text
+        </strong>
+      </div>
+      <div>
+        <h1>Table tag</h1>
+
+        <table>
+          <tr>
+            <th>This is a th tag (table head)</th>
+            <th>Lastname</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>This is a td tag</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+        </table>
       </div>
     </div>
   </body>
