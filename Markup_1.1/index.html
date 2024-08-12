@@ -27,15 +27,29 @@
     .details {
       align-items: left;
     }
+    .image-container {
+      gap: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
   <body>
     <div class="container">
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="nature image"
-          height="500"
-        />
+      <div class="image-container">
+        <div>
+          <h2>This image is from the Web</h2>
+          <img
+            src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1852&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="nature image"
+            height="500"
+          />
+        </div>
+        <div>
+          <h2>This image is from the local folder</h2>
+          <img src="public/nature.webp" alt="nature image" height="500" />
+        </div>
       </div>
       <div class="details">
         <h1>This is a h1</h1>
