@@ -24,6 +24,36 @@
         padding-bottom: 0.5rem;
       }
 
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      button {
+        padding: 0.6rem 1.5rem;
+        background-color: #5428bb;
+        color: white;
+        border: none;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      button:active {
+        background-color: #be780f;
+      }
+
+      button img {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-inline-end: 0.5rem;
+      }
+
       .hobbies-section h3,
       ul {
         margin: 0;
@@ -60,9 +90,18 @@
         </ul>
       </section>
       <section class="social-section">
-        <a href="https://www.facebook.com" target="_blank">Facebook</a
-        ><a href="https://www.instagram.com" target="_blank">Instagram</a
-        ><a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <button>
+          <img src="./images/facebook.png" alt="facebook logo" />
+          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        </button>
+        <button>
+          <img src="./images/instagram.png" alt="instagram logo" />
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </button>
+        <button>
+          <img src="./images/twitter.png" alt="twitter logo" />
+          <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </button>
       </section>
     </main>
   </body>
