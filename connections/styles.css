@@ -1,11 +1,54 @@
-.testimonials {
-  background-color: #f9f9f9;
-  padding: 5rem 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #18519b;
+  --secondary-color: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #18519b;
+  color: #fff;
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+  color: #ccc;
+  list-style: none;
+}
+
+header ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h2 {
   text-align: center;
   margin: 20px 20px;
+  font-size: 2.2rem;
+  padding-block: 20px;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 5rem 0;
 }
 
 footer {
@@ -15,6 +58,16 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.main-section p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Edu VIC WA NT Beginner", sans-serif;
+}
+
+.image-links {
+  padding-block: 20px;
 }
 
 .card-container {
@@ -30,7 +83,6 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   margin: 10px;
-  /* padding: 10px; */
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f9f9f9;
@@ -70,4 +122,13 @@ footer {
 
 .contact-section form > * {
   margin: 2px;
+}
+
+.contact-form button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 1rem;
 }
