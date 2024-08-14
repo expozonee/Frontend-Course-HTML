@@ -1,0 +1,73 @@
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 5rem 0;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  /* padding: 10px; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: auto;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: auto;
+}
+
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 5rem 0;
+  border-block: 1px solid #ccc;
+  margin-block: 5rem;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section form > * {
+  margin: 2px;
+}
