@@ -32,7 +32,7 @@ ul {
 h2 {
   font-family: "Poppins", sans-serif;
   /* padding-left: 3rem; */
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 0;
   padding: 2rem;
 }
@@ -46,6 +46,15 @@ a {
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .main-header-section {
@@ -86,7 +95,6 @@ h1 {
 }
 
 img {
-  width: 75%;
   margin-inline: auto;
   object-fit: cover;
   border-radius: 100%;
